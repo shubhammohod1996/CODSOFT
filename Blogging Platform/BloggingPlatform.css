@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100%;
+  height: 45px;
+  border: 1px solid gray;
+  padding: 0px 10px;
+  position: fixed;
+  background: #033747;
+}
+nav .logo p {
+  font-size: 18px;
+  font-weight: bold;
+  float: left;
+  color: rgb(202, 127, 14);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+}
+nav li a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0px 30px;
+  color: #d47f7f;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #b9360e;
+  transition: all 0.4s ease 0s;
+}
+.copywrite {
+  color: #fff;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.main-container {
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.left-sidebar {
+  background-color: rgba(4, 6, 65, 0.904);
+  color: #fff;
+  width: 15%;
+  padding: 20px;
+}
+
+.left-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px;
+  padding: 20px;
+}
+.blog-item {
+  flex: 0 0 23%;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  height: 430px;
+  padding-top: 20px;
+}
+.blog-item img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.blog-item .p-4 {
+  padding: 1rem;
+}
+.blog-item i {
+  padding: 1rem;
+  font-size: 11px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+}
+.blog-item time {
+  display: block;
+}
+.blog-item h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+.blog-item p {
+  margin-bottom: 0.5rem;
+}
+.blog-item a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  transition: background-color 0.3s;
+  height: 20px;
+  width: 70px;
+}
+.blog-item a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.footar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(4, 6, 65, 0.904);
+  color: #fff;
+  height: 30px;
+  margin-top: 22px;
+
+}
+.footar .media-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.footar .media-icon a {
+  margin-right: 10px;
+  color: #008080;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+.footar .media-icon a:hover {
+  color: #006666;
+}
+.footar .write {
+  font-size: 12px;
+}
